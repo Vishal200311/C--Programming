@@ -15,11 +15,11 @@ int main()
     da = 0.30 * basic;
     tax = 0.05 * basic;
     take_home = basic + hr + da -tax;
-     printf("Employee ID      : %d\n", emp_id);
-    printf("Basic Salary     : %.2f\n", basic);
-    printf("House Rent  : %.2f\n", hr);
-    printf("Dearness    : %.2f\n", da);
-    printf("Tax        : %.2f\n", tax);
+     printf("Employee ID : %d\n", emp_id);
+    printf("Basic Salary : %.2f\n", basic);
+    printf("House Rent (%%10): %.2f\n", hr);
+    printf("Dearness(%%30): %.2f\n", da);
+    printf("Tax(%%5) : %.2f\n", tax);
 
     printf("\n employee ID : %d",emp_id);
     printf("\n take home  salary: %.2f ",take_home);
