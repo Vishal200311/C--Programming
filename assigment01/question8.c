@@ -7,7 +7,7 @@ int main()
     scanf("%d",&emp_id);
     printf("\n enter basic salary :");
     scanf("%f",&basic);
-    printf("\n enter the dearness allownce: ");
+    printf("\n enter the dearness allownce: ");                                                              
     scanf("%f",&da);
     printf("\n enter the tax :");
     scanf("%f",&tax);
@@ -22,7 +22,7 @@ int main()
     printf("Tax(%%5) : %.2f\n", tax);
 
     printf("\n employee ID : %d",emp_id);
-    printf("\n take home  salary: %.2f ",take_home);
+    printf("\n take_home  salary: %.2f ",take_home);
     return 0;
 
 
