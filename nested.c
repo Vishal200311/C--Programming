@@ -20,6 +20,7 @@ int main()
     else printf("minute is invalid");
  
  } else printf("hours is invalid");
+ return 0;
 
   
     
