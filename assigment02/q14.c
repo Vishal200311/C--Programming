@@ -13,6 +13,6 @@ int main()
     }else if(bs > 300000){
         tax = 0.30 *bs;
     }    
-    printf("income tax:2.%f",tax);
+    printf("income tax:%f",tax);
     return 0;
 }
